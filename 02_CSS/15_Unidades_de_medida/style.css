@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px {
+    height: 10px;
+}
+
+/* root element -> 16px * 3 = 48px, adaptável e o mais usado */
+/* se altera o tamanho do root com -> :root {} */
+.rem {
+    height: 3rem;
+}
+
+.em {
+    font-size: 32px;
+    height: 2em;
+}
+
+/* porcentagem do tamanho do elemento pai */
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewports não são tão utilizados quanto porcentagem, pois seu comportamento é muito variado e imprevisível. */
+/* caso for usar viewport, é recomendado criar um container com tamanho variavel e entao usar porcentagem. */
+
+/* viewport height */
+/* porcentagem da altura da tela (varia pelo tamanho e formato da tela: celular/computador) */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width */
+.vw {
+    width: 50vw;
+}
